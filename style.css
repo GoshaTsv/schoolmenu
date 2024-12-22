@@ -1,0 +1,23 @@
+html{
+    background-image: url(imgs/Новый\ проект\ \(3\).jpg);
+    background-size: 20%;
+}
+#sign{
+    size-adjust: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway/static/Raleway-Black.ttf);
+}
+p{
+   font-family: Raleway;
+   font-style: italic;
+   font-size: 20px;
+   transition: 1s;
+}
+p:hover{
+    font-size: 30px;
+}
